@@ -6,9 +6,7 @@ describe("E2E - Typing Action", () => {
         cy.get("#search-field-top-bar").type("Dany produkt{backspace}", { delay: 200 });
     })
 
-    // it("Deleting a value from the input", () => {
-    //     cy.get("#search-field-top-bar").clear();
-    // })
+
 
     it("Deleting a few values from the input", () => {
         const deleteSigns = (n) => {
