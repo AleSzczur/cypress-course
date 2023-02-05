@@ -1,0 +1,10 @@
+{ 
+    "baseUrl": "https://skleptest.pl",
+    "includeShadowDom": true,
+    "ChromeWebSecurity": true,
+    "viewportHeight": 1080,
+    "viewportWidth": 1920
+}
+
+
+
